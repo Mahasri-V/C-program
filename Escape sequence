@@ -1,0 +1,49 @@
+//ESCAPE OPERATORS
+
+#include <stdio.h>
+int main ()
+{
+  /*ALEART OR BELL ESCAPE SEQUANCE (\a)- used to produce a sound */
+  printf ("1.sound \a aleart\n");
+
+  /*BACKSPACE ESCAPE SEQUANCE (\b)-used to move cursor back by one position */
+  printf ("2.I am unstoppable \b\b\b is a song");
+  
+  /*FORM FEED: Advances the printer to the next logical page*/
+  printf("\n3.I am absolutely \f fine");
+
+  /*NEW LINE CHARACTER (\n)-used to move the cursor to next line */
+  printf ("\n4.I am unstoppable\nIs a song");
+  
+  /*CARRIAGE RETURN (\r)-used to move the cursor beginning of the current line */
+  printf ("\n5.I am unstoppable \r is a song");
+  
+  /*HORIZONTAL TAB (\t)-used to move the cursor next horizontal tab space */
+  printf ("\n6.I am unstoppable \t is a song");
+  
+  /*VERTICAL TAB (\V)-used to move the cursor to the next verrtical tab space */
+  printf ("\n7.I am unstoppable \v is a song");
+  
+  /*BACKSLASH (\\)-used to insert backslash */
+  printf ("\n8.I am unstoppable \\ is a song");
+  
+  /*SINGLE AND DOUBLE QUOTE(\'&\")-used to insert a single quote and double quote character */
+  printf ("\n9.I am a \'student\" ");
+  
+  /*QUESTION MARK (\?)-used to insert a question mark */
+  printf ("\n10.what is your name \?");
+  
+  /*NULLCHARACTER (\0)-used to insert a null character */
+  printf ("\n11.help\0just funny");
+  
+  /*Octal value(\nnn):used to inserts the character represented by the octal value nnn */
+  printf("\n12.\674 is a octal value");
+  
+  /*HEXADECIMAL(\xhh): Inserts the character represented by the hexadecimal value hh*/
+  printf("\n13.\x98 is an hexadecimal value");
+  
+  /*UNIVERSAL CHARACTER NAME(\uhhh): Inserts the character represented by the Unicode value hhhh*/
+  printf("\n14.\uabc0 is a universal character name");
+  
+  return 0;
+}
