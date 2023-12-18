@@ -1,0 +1,13 @@
+#include <stdio.h>
+int area ()
+{
+    int a=5;
+    a=a*a;
+    return a;
+    
+}
+int main()
+{
+     int c;
+     c= area();
+    printf("area of square is %d",c);
