@@ -1,0 +1,15 @@
+#include <stdio.h>
+ int fac(int a)
+    {
+       int i;
+       i=a+fac(a-1);
+        return i;
+    }
+    int main() 
+    {
+    int a,fac,d;
+    printf ("Enter the number :");
+    scanf("%d",&a);
+    fac=fact(a);
+    printf("Factorial of %d",d);}}
+  
